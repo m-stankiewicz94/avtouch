@@ -23,6 +23,11 @@
     "scrollHint": "PRZEWIŃ",
     "kw": "Integracja audio, wideo i systemów sterowania"
   },
+  "about": {
+    "h": "O nas",
+    "p1": "Tworzymy nowoczesne rozwiązania audiowizualne, które wspierają komunikację i rozwój biznesu. Projektujemy oraz wdrażamy profesjonalne systemy AV – od sal konferencyjnych i wideokonferencji, przez Digital Signage, po zaawansowane systemy nagłośnienia i wyświetlania obrazu.",
+    "p2": "Łączymy doświadczenie z najnowszymi technologiami, dostarczając rozwiązania dopasowane do potrzeb naszych klientów. Stawiamy na jakość, niezawodność i kompleksową obsługę – od projektu i instalacji, po wsparcie techniczne i serwis."
+  },
   "stats": {
     "s1": "zrealizowanych projektów",
     "s2Unit": "lat",

@@ -3,6 +3,7 @@ import { isLocale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
 import BrandMarquee from "@/components/BrandMarquee";
 import Stats from "@/components/Stats";
 import Services from "@/components/Services";
@@ -27,6 +28,7 @@ export default async function HomePage({
       <Nav dict={dict} locale={locale} />
       <main>
         <Hero dict={dict} />
+        <About dict={dict} />
         <BrandMarquee />
         <Stats dict={dict} />
         <Services dict={dict} />

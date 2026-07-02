@@ -31,6 +31,7 @@ export interface Dictionary {
     scrollHint: string;
     kw: string;
   };
+  about: { h: string; p1: string; p2: string };
   stats: { s1: string; s2Unit: string; s2: string; s3: string; s4: string };
   services: { h: string; sub: string; items: { t: string; d: string }[] };
   process: {

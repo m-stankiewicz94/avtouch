@@ -1,0 +1,36 @@
+.section {
+  padding: 110px var(--pad-x);
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.body {
+  display: grid;
+  gap: 24px;
+  max-width: 640px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dim-2);
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .section {
+    padding: 80px var(--pad-x);
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
