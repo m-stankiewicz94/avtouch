@@ -1,0 +1,44 @@
+import Image from "next/image";
+import LangToggle from "@/components/LangToggle";
+import type { Dictionary, Locale } from "@/lib/i18n/config";
+import styles from "./Nav.module.css";
+
+export default function Nav({
+  dict,
+  locale,
+}: {
+  dict: Dictionary;
+  locale: Locale;
+}) {
+  return (
+    <header data-nav className={styles.nav}>
+      <a href="#top" data-anchor="top" className={styles.logo} aria-label="AVtouch">
+        <Image
+          src="/assets/avtouch-logo.png"
+          alt="AVtouch"
+          width={1169}
+          height={205}
+          priority
+        />
+      </a>
+      <nav className={styles.links} aria-label={dict.nav.primary}>
+        <a href="#uslugi" data-anchor="uslugi" className={styles.link}>
+          {dict.nav.services}
+        </a>
+        <a href="#realizacje" data-anchor="realizacje" className={styles.link}>
+          {dict.nav.work}
+        </a>
+        <a href="#opinie" data-anchor="opinie" className={styles.link}>
+          {dict.nav.voices}
+        </a>
+        <a href="#kontakt" data-anchor="kontakt" className={styles.link}>
+          {dict.nav.contact}
+        </a>
+        <LangToggle locale={locale} label={dict.nav.language} />
+        <a href="#kontakt" data-anchor="kontakt" className={styles.cta}>
+          {dict.nav.cta}
+        </a>
+      </nav>
+    </header>
+  );
+}

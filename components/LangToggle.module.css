@@ -1,0 +1,34 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 100px;
+  padding: 7px 14px;
+  white-space: nowrap;
+  font: 500 12px var(--font-mono);
+  color: var(--muted);
+  transition: border-color 0.2s;
+}
+
+.toggle:hover {
+  border-color: var(--border-hover);
+}
+
+.active {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.inactive {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.inactive:hover {
+  color: var(--text);
+}
+
+.sep {
+  color: var(--muted);
+}

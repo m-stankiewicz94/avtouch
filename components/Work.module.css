@@ -1,0 +1,203 @@
+.gallery {
+  height: 280vh;
+  position: relative;
+  border-top: 1px solid var(--border);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 80px 0 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 var(--pad-x);
+  margin-bottom: 44px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.sub {
+  font: 400 12px var(--font-mono);
+  color: var(--muted-2);
+}
+
+.track {
+  display: flex;
+  gap: 20px;
+  padding: 0 var(--pad-x);
+  width: max-content;
+  will-change: transform;
+}
+
+.card {
+  width: 620px;
+  height: 420px;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  flex: none;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--surface-2) 0 14px,
+    #111520 14px 28px
+  );
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Darkening scrim so bright photos stay readable and sit in the dark theme;
+   fades on hover to reveal the full photo. The bottom caption gradient
+   (.overlay) stays, so the label is legible even while hovering. */
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(5, 6, 10, 0.9) 0%,
+    rgba(5, 6, 10, 0.55) 45%,
+    rgba(5, 6, 10, 0.3) 100%
+  );
+  transition: opacity 0.45s ease;
+}
+
+.card:hover .scrim {
+  opacity: 0;
+}
+
+.card:hover .image {
+  transform: scale(1.04);
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px;
+  background: linear-gradient(to top, rgba(5, 6, 10, 0.96), rgba(5, 6, 10, 0));
+}
+
+.meta {
+  font: 400 11px var(--font-mono);
+  color: var(--accent-cyan);
+  margin-bottom: 7px;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cardDesc {
+  font-size: 14px;
+  color: var(--text-dim-2);
+  margin-top: 5px;
+}
+
+.ctaCard {
+  width: 520px;
+  height: 420px;
+  border-radius: 18px;
+  position: relative;
+  border: 1px dashed rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.02);
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  padding: 0 44px;
+  box-sizing: border-box;
+}
+
+.ctaTitle {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.ctaDesc {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-dim-2);
+  max-width: 330px;
+}
+
+.ctaButton {
+  margin-top: 8px;
+  background: linear-gradient(90deg, #2e77ff, #38b6f0);
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 28px;
+  border-radius: 100px;
+  box-shadow: 0 0 32px rgba(46, 150, 255, 0.3);
+  transition: filter 0.2s;
+}
+
+.ctaButton:hover {
+  filter: brightness(1.12);
+}
+
+.progressWrap {
+  padding: 28px var(--pad-x) 0;
+}
+
+.progressTrack {
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+  max-width: 340px;
+}
+
+.progressFill {
+  height: 2px;
+  width: 0%;
+  background: var(--accent-grad);
+  border-radius: 1px;
+}
+
+@media (max-width: 860px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .card,
+  .ctaCard {
+    width: 80vw;
+    height: 340px;
+  }
+
+  .ctaCard {
+    padding: 0 28px;
+  }
+}

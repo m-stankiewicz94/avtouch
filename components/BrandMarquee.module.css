@@ -1,0 +1,57 @@
+.marquee {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 26px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.fadeLeft {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 140px;
+  background: linear-gradient(to right, var(--bg), rgba(5, 6, 10, 0));
+  z-index: 2;
+  pointer-events: none;
+}
+
+.fadeRight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 140px;
+  background: linear-gradient(to left, var(--bg), rgba(5, 6, 10, 0));
+  z-index: 2;
+  pointer-events: none;
+}
+
+.track {
+  display: flex;
+  gap: 72px;
+  width: max-content;
+  will-change: transform;
+}
+
+.row {
+  display: flex;
+  gap: 72px;
+  font: 500 15px var(--font-mono);
+  letter-spacing: 0.14em;
+  color: var(--muted-2);
+  white-space: nowrap;
+}
+
+@media (max-width: 860px) {
+  .track,
+  .row {
+    gap: 48px;
+  }
+
+  .fadeLeft,
+  .fadeRight {
+    width: 72px;
+  }
+}

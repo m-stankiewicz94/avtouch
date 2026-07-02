@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "AVtouch — audio, video & control systems integration | Warsaw, Poland",
+    "description": "AVtouch designs and installs audio, video and control systems for conference rooms, hotels, offices and homes. Design, installation and 24/7 service. Warsaw, all of Poland.",
+    "ogAlt": "AVtouch — audio, video and control integration"
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "voices": "Clients",
+    "contact": "Contact",
+    "cta": "Get a quote",
+    "primary": "Primary navigation",
+    "language": "Language"
+  },
+  "hero": {
+    "l1": "Hear it.",
+    "l2": "See it.",
+    "l3": "It works.",
+    "sub": "AVtouch integrates audio, video and control in buildings meant to impress — from office towers to private cinemas.",
+    "cta1": "Get a quote",
+    "cta2": "Our work",
+    "scrollHint": "SCROLL",
+    "kw": "Audio, video and control-systems integration"
+  },
+  "stats": {
+    "s1": "completed projects",
+    "s2Unit": "yrs",
+    "s2": "in the AV industry",
+    "s3": "service & monitoring",
+    "s4": "to a first estimate"
+  },
+  "services": {
+    "h": "What we do",
+    "sub": "// FULL CYCLE: DESIGN → INSTALL → SUPPORT",
+    "items": [
+      {
+        "t": "Conference rooms",
+        "d": "Video conferencing, wireless presentation and room booking — one standard across the company."
+      },
+      {
+        "t": "Control systems",
+        "d": "Crestron, Extron, KNX. The whole building on a single touch panel."
+      },
+      {
+        "t": "Sound & digital signage",
+        "d": "Electroacoustics, LED screens and video walls — from design to tuning and content."
+      },
+      {
+        "t": "Smart home, cinema & support",
+        "d": "Private cinemas and multiroom, plus 24/7 service with SLA agreements."
+      }
+    ]
+  },
+  "process": {
+    "h": "How we work",
+    "sub": "// FROM THE FIRST CALL TO ONGOING SUPPORT",
+    "cta": "Start with a free consultation →",
+    "steps": [
+      {
+        "t": "Call & site visit",
+        "d": "We get to know your building, needs and budget. We come over, measure and listen.",
+        "chips": ["no strings attached", "one site visit"]
+      },
+      {
+        "t": "Design & quote",
+        "d": "Concept, equipment selection and documentation. You know exactly what you get and for how much.",
+        "chips": ["first estimate in 48 h", "design documentation"]
+      },
+      {
+        "t": "Installation & programming",
+        "d": "Cabling, mounting and control programming. Clean, on time, no excuses.",
+        "chips": ["Crestron · Extron · QSC", "in-house install team"]
+      },
+      {
+        "t": "Training & handover",
+        "d": "We hand over a system that simply works — and your team knows how to use it.",
+        "chips": ["team training", "as-built documentation"]
+      },
+      {
+        "t": "Service & care",
+        "d": "We stay with you after the launch. We often react before you notice a problem.",
+        "chips": ["SLA agreement", "24/7 monitoring", "periodic inspections"]
+      }
+    ]
+  },
+  "work": {
+    "h": "Our work",
+    "sub": "// KEEP SCROLLING TO SEE MORE",
+    "ctaT": "Have a similar project?",
+    "ctaD": "Tell us about it — you get a first concept and budget within 48 hours.",
+    "ctaB": "Get a quote →",
+    "projects": [
+      {
+        "meta": "CORPORATE · WARSAW · 2025",
+        "t": "Conference centre",
+        "d": "12 rooms, Crestron control, streaming and simultaneous interpretation",
+        "alt": "AVtouch project — conference centre with AV system"
+      },
+      {
+        "meta": "HOTELS · KRAKÓW · 2025",
+        "t": "5-star hotel — ballroom",
+        "d": "800 m²: QSC sound, 12 m LED screen, stage lighting",
+        "alt": "AVtouch project — hotel ballroom with sound system and LED screen"
+      },
+      {
+        "meta": "OFFICES · WARSAW · 2024",
+        "t": "Bank headquarters",
+        "d": "40 meeting rooms in one standard, digital signage across the building",
+        "alt": "AVtouch project — meeting rooms at a bank headquarters"
+      },
+      {
+        "meta": "SMART HOME · KONSTANCIN · 2026",
+        "t": "Private residence",
+        "d": "11.2.4 cinema, multiroom in 14 zones, whole-home automation",
+        "alt": "AVtouch project — private home cinema and multiroom"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Client voices",
+    "quote": "“AVtouch designed and deployed AV in 40 rooms of our headquarters. Zero downtime in two years — the best recommendation I know.”",
+    "quoteBy": "— IT Director, banking sector",
+    "cards": [
+      {
+        "q": "“The ballroom sounds just as good at a conference as at a concert. Guests can hear it.”",
+        "by": "— COO, 5-star hotel"
+      },
+      {
+        "q": "“One button and the cinema starts. Exactly what we wanted — no remotes, no fiddling.”",
+        "by": "— private client, Konstancin"
+      }
+    ]
+  },
+  "contact": {
+    "h": "Get a quote",
+    "sub": "Tell us what you are planning — we reply within 48 hours with a concept and budget.",
+    "phName": "Full name",
+    "phEmail": "E-mail",
+    "phMsg": "Briefly describe your project…",
+    "btn": "Send & get a quote",
+    "city": "Warsaw · all of Poland",
+    "sending": "Sending…",
+    "success": "Thank you! We'll get back to you within 48 hours.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "invalid": "Please fill in all fields correctly."
+  },
+  "footer": "© 2026 AVtouch. All rights reserved."
+}

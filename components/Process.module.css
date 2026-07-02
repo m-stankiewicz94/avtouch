@@ -1,0 +1,122 @@
+.process {
+  position: relative;
+  padding: 110px var(--pad-x) 100px;
+  border-top: 1px solid var(--border);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 70px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.sub {
+  font: 400 12px var(--font-mono);
+  color: var(--muted-2);
+}
+
+.steps {
+  position: relative;
+  max-width: 1060px;
+}
+
+.step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 36px;
+  align-items: start;
+  padding: 38px 24px;
+  border-radius: 14px;
+  transition: background 0.3s;
+}
+
+.step:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.num {
+  font-family: var(--font-display);
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+/* Readable end-state is the DEFAULT so the section is legible without JS and
+   under prefers-reduced-motion. The motion engine imperatively dims these on
+   mount (only when motion is allowed) and lights them up on scroll. */
+.stepTitle {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+  transition: color 0.5s;
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-dim-2);
+  max-width: 620px;
+  transition: color 0.5s;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.chip {
+  border: 1px solid var(--border-strong);
+  border-radius: 100px;
+  padding: 6px 13px;
+  font: 400 11px var(--font-mono);
+  color: var(--muted-3);
+}
+
+.ctaWrap {
+  margin-top: 44px;
+  padding-left: 24px;
+}
+
+.cta {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 860px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .step {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 28px 0;
+  }
+
+  .num {
+    font-size: 44px;
+  }
+}

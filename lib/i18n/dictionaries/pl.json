@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "AVtouch — integracja audio, wideo i systemów sterowania | Warszawa",
+    "description": "AVtouch projektuje i wdraża systemy audio-wideo oraz sterowania w salach konferencyjnych, hotelach, biurach i domach. Projekt, instalacja i serwis 24/7. Warszawa, cała Polska.",
+    "ogAlt": "AVtouch — integracja audio, wideo i sterowania"
+  },
+  "nav": {
+    "services": "Usługi",
+    "work": "Realizacje",
+    "voices": "Opinie",
+    "contact": "Kontakt",
+    "cta": "Wyceń projekt",
+    "primary": "Nawigacja główna",
+    "language": "Język"
+  },
+  "hero": {
+    "l1": "Słychać.",
+    "l2": "Widać.",
+    "l3": "Działa.",
+    "sub": "AVtouch integruje audio, wideo i sterowanie w budynkach, które mają robić wrażenie — od biurowców po prywatne kina.",
+    "cta1": "Wyceń projekt",
+    "cta2": "Realizacje",
+    "scrollHint": "PRZEWIŃ",
+    "kw": "Integracja audio, wideo i systemów sterowania"
+  },
+  "stats": {
+    "s1": "zrealizowanych projektów",
+    "s2Unit": "lat",
+    "s2": "na rynku AV",
+    "s3": "serwis i monitoring",
+    "s4": "do wstępnej wyceny"
+  },
+  "services": {
+    "h": "Co robimy",
+    "sub": "// PEŁNY CYKL: PROJEKT → INSTALACJA → SERWIS",
+    "items": [
+      {
+        "t": "Sale konferencyjne",
+        "d": "Wideokonferencje, prezentacja bezprzewodowa i rezerwacja sal — jeden standard dla całej firmy."
+      },
+      {
+        "t": "Systemy sterowania",
+        "d": "Crestron, Extron, KNX. Cały budynek na jednym panelu dotykowym."
+      },
+      {
+        "t": "Nagłośnienie i digital signage",
+        "d": "Elektroakustyka, ekrany LED i ściany wideo — od projektu po strojenie i treści."
+      },
+      {
+        "t": "Smart home, kino i serwis",
+        "d": "Prywatne kina i multiroom oraz opieka serwisowa 24/7 z umowami SLA."
+      }
+    ]
+  },
+  "process": {
+    "h": "Jak wygląda współpraca",
+    "sub": "// OD PIERWSZEJ ROZMOWY DO OPIEKI SERWISOWEJ",
+    "cta": "Zacznij od bezpłatnej rozmowy →",
+    "steps": [
+      {
+        "t": "Rozmowa i wizja lokalna",
+        "d": "Poznajemy obiekt, Twoje potrzeby i budżet. Przyjeżdżamy, mierzymy i słuchamy.",
+        "chips": ["bez zobowiązań", "1 wizyta na miejscu"]
+      },
+      {
+        "t": "Projekt i wycena",
+        "d": "Koncepcja, dobór urządzeń i dokumentacja. Wiesz dokładnie, co i za ile dostaniesz.",
+        "chips": ["wstępna wycena w 48 h", "dokumentacja projektowa"]
+      },
+      {
+        "t": "Instalacja i programowanie",
+        "d": "Okablowanie, montaż i konfiguracja sterowania. Czysto, terminowo, bez wymówek.",
+        "chips": ["Crestron · Extron · QSC", "własny zespół instalatorów"]
+      },
+      {
+        "t": "Szkolenie i przekazanie",
+        "d": "Przekazujemy system, który po prostu działa — a Twój zespół wie, jak z niego korzystać.",
+        "chips": ["szkolenie zespołu", "dokumentacja powykonawcza"]
+      },
+      {
+        "t": "Serwis i opieka",
+        "d": "Zostajemy z Tobą po wdrożeniu. Często reagujemy, zanim zauważysz problem.",
+        "chips": ["umowa SLA", "monitoring 24/7", "przeglądy okresowe"]
+      }
+    ]
+  },
+  "work": {
+    "h": "Realizacje",
+    "sub": "// PRZEWIŃ, ŻEBY ZOBACZYĆ WIĘCEJ",
+    "ctaT": "Masz podobny projekt?",
+    "ctaD": "Opowiedz nam o nim — wstępną koncepcję i budżet dostaniesz w 48 godzin.",
+    "ctaB": "Wyceń projekt →",
+    "projects": [
+      {
+        "meta": "KORPORACJE · WARSZAWA · 2025",
+        "t": "Centrum konferencyjne",
+        "d": "12 sal, sterowanie Crestron, streaming i tłumaczenia symultaniczne",
+        "alt": "Realizacja AVtouch — centrum konferencyjne z systemem AV"
+      },
+      {
+        "meta": "HOTELE · KRAKÓW · 2025",
+        "t": "Hotel ★★★★★ — sala balowa",
+        "d": "800 m²: nagłośnienie QSC, ekran LED 12 m, oświetlenie sceniczne",
+        "alt": "Realizacja AVtouch — sala balowa hotelu z nagłośnieniem i ekranem LED"
+      },
+      {
+        "meta": "BIURA · WARSZAWA · 2024",
+        "t": "Siedziba główna banku",
+        "d": "40 sal spotkań w jednym standardzie, digital signage w całym budynku",
+        "alt": "Realizacja AVtouch — sale spotkań w siedzibie banku"
+      },
+      {
+        "meta": "SMART HOME · KONSTANCIN · 2026",
+        "t": "Rezydencja prywatna",
+        "d": "Kino 11.2.4, multiroom w 14 strefach, automatyka całego domu",
+        "alt": "Realizacja AVtouch — prywatne kino domowe i multiroom"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Opinie klientów",
+    "quote": "„AVtouch zaprojektował i wdrożył systemy AV w 40 salach naszej siedziby. Zero przestojów od dwóch lat — to najlepsza rekomendacja, jaką znam.”",
+    "quoteBy": "— Dyrektor IT, sektor bankowy",
+    "cards": [
+      {
+        "q": "„Sala balowa brzmi równie dobrze na konferencji, co na koncercie. Goście to słyszą.”",
+        "by": "— COO, hotel ★★★★★"
+      },
+      {
+        "q": "„Jeden przycisk i kino startuje. Dokładnie tego chcieliśmy — bez pilotów, bez kombinowania.”",
+        "by": "— klient prywatny, Konstancin"
+      }
+    ]
+  },
+  "contact": {
+    "h": "Wyceń projekt",
+    "sub": "Napisz, co planujesz — odpowiemy w 48 godzin z wstępną koncepcją i budżetem.",
+    "phName": "Imię i nazwisko",
+    "phEmail": "E-mail",
+    "phMsg": "Opisz krótko swój projekt…",
+    "btn": "Wyślij i wyceń projekt",
+    "city": "Warszawa · cała Polska",
+    "sending": "Wysyłanie…",
+    "success": "Dziękujemy! Odezwiemy się w ciągu 48 godzin.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas mailem.",
+    "invalid": "Uzupełnij poprawnie wszystkie pola."
+  },
+  "footer": "© 2026 AVtouch. Wszystkie prawa zastrzeżone."
+}
