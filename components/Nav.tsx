@@ -14,11 +14,21 @@ export default function Nav({
     <header data-nav className={styles.nav}>
       <a href="#top" data-anchor="top" className={styles.logo} aria-label="AVtouch">
         <Image
-          src="/assets/avtouch-logo.png"
+          src="/assets/avtouch-logo-mark.svg"
           alt="AVtouch"
-          width={1169}
-          height={205}
+          width={693}
+          height={322}
           priority
+          className={styles.logoMark}
+        />
+        <Image
+          src="/assets/avtouch-logo-text.svg"
+          alt=""
+          width={619}
+          height={75}
+          priority
+          aria-hidden="true"
+          className={styles.logoText}
         />
       </a>
       <nav className={styles.links} aria-label={dict.nav.primary}>

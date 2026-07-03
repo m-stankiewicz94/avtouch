@@ -6,10 +6,10 @@ export default function Footer({ dict }: { dict: Dictionary }) {
   return (
     <footer className={styles.footer}>
       <Image
-        src="/assets/avtouch-logo.png"
+        src="/assets/avtouch-logo-full.svg"
         alt="AVtouch"
-        width={1169}
-        height={205}
+        width={693}
+        height={486}
         className={styles.logo}
       />
       <span className={styles.copy}>{dict.footer}</span>

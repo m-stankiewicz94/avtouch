@@ -13,12 +13,21 @@
 }
 
 .logo {
-  display: block;
-  line-height: 0;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  text-decoration: none;
 }
 
-.logo img {
-  height: 22px;
+.logoMark {
+  height: 40px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 12px rgba(47, 168, 255, 0.35));
+}
+
+.logoText {
+  height: 19px;
   width: auto;
   display: block;
 }
@@ -57,6 +66,15 @@
 }
 
 @media (max-width: 860px) {
+  .logo {
+    gap: 8px;
+  }
+  .logoMark {
+    height: 25px;
+  }
+  .logoText {
+    height: 11px;
+  }
   .link {
     display: none;
   }
