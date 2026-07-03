@@ -14,9 +14,11 @@ export const SITE = {
   defaultLocale,
   /** PLACEHOLDER — real contact inbox. */
   email: "kontakt@avtouch.pl",
-  /** PLACEHOLDER — real phone number (display + tel: form). */
-  phone: "+48 22 000 00 00",
-  phoneHref: "+48220000000",
+  /** Contact phone numbers (display + tel: form). */
+  phones: [
+    { display: "+48 604 255 627", href: "+48604255627" },
+    { display: "+48 600 946 257", href: "+48600946257" },
+  ],
   city: "Warszawa",
   region: "Mazowieckie",
   country: "PL",

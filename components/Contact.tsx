@@ -95,9 +95,15 @@ export default function Contact({ dict }: { dict: Dictionary }) {
           <a href={`mailto:${SITE.email}`} className={styles.metaLink}>
             {SITE.email}
           </a>
-          <a href={`tel:${SITE.phoneHref}`} className={styles.metaLink}>
-            {SITE.phone}
-          </a>
+          <span>
+            <a href={`tel:${SITE.phones[0].href}`} className={styles.metaLink}>
+              {SITE.phones[0].display}
+            </a>
+            {" · "}
+            <a href={`tel:${SITE.phones[1].href}`} className={styles.metaLink}>
+              {SITE.phones[1].display}
+            </a>
+          </span>
           <span>{dict.contact.city}</span>
         </div>
       </div>

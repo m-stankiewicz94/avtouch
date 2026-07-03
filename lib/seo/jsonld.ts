@@ -14,7 +14,7 @@ export function businessJsonLd(locale: Locale, description: string) {
     name: SITE.name,
     url: `${SITE.domain}/${locale}`,
     image: `${SITE.domain}${SITE.ogImage}`,
-    telephone: SITE.phone,
+    telephone: SITE.phones.map((p) => p.display),
     email: SITE.email,
     description,
     address: {
