@@ -22,5 +22,8 @@ next-env.d.ts
 
 # vercel
 .vercel
+.vercel.bak
 
-.vercel
+# local tooling
+.idea/
+.claude/
