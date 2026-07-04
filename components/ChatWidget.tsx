@@ -11,6 +11,8 @@ export default function ChatWidget({ dict }: { dict: Dictionary }) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
+  const [remaining, setRemaining] = useState<string[]>(dict.chat.suggestions);
+  const [suggestionsOff, setSuggestionsOff] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -28,10 +30,19 @@ export default function ChatWidget({ dict }: { dict: Dictionary }) {
 
   const lastMessage = messages[messages.length - 1];
   const showTyping = busy && (!lastMessage || lastMessage.text !== "" || lastMessage.role === "user");
+  const showSuggestions =
+    open && !busy && !suggestionsOff && remaining.length > 0;
 
-  async function send() {
-    const text = input.trim();
+  async function sendText(raw: string, fromSuggestion = false) {
+    const text = raw.trim();
     if (!text || busy) return;
+    if (fromSuggestion) {
+      // Zużyj kliknięte pytanie — reszta pokaże się pod odpowiedzią bota.
+      setRemaining((prev) => prev.filter((s) => s !== text));
+    } else {
+      // Ręcznie wpisana wiadomość trwale wyłącza podpowiedzi w tej rozmowie.
+      setSuggestionsOff(true);
+    }
     const history: ChatMessage[] = [...messages, { role: "user", text }];
     setMessages(history);
     setInput("");
@@ -106,6 +117,20 @@ export default function ChatWidget({ dict }: { dict: Dictionary }) {
                 {m.text}
               </div>
             ))}
+            {showSuggestions && (
+              <div className={styles.suggestions}>
+                {remaining.map((s) => (
+                  <button
+                    key={s}
+                    type="button"
+                    className={styles.suggestion}
+                    onClick={() => void sendText(s, true)}
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+            )}
             {showTyping && (
               <div className={styles.typing} aria-hidden="true">
                 <span />
@@ -119,7 +144,7 @@ export default function ChatWidget({ dict }: { dict: Dictionary }) {
             className={styles.inputRow}
             onSubmit={(e) => {
               e.preventDefault();
-              void send();
+              void sendText(input);
             }}
           >
             <input

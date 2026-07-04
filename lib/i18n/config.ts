@@ -75,6 +75,7 @@ export interface Dictionary {
     error: string;
     open: string;
     close: string;
+    suggestions: string[];
   };
   footer: string;
 }

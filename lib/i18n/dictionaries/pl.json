@@ -157,7 +157,13 @@
     "send": "Wyślij",
     "error": "Przepraszamy, coś poszło nie tak. Proszę spróbować ponownie za chwilę lub skorzystać z formularza kontaktowego.",
     "open": "Otwórz czat z asystentem",
-    "close": "Zamknij czat"
+    "close": "Zamknij czat",
+    "suggestions": [
+      "Robicie też elektrykę i okablowanie?",
+      "Oferujecie usługi IT i tworzenie stron?",
+      "Pokażcie przykładowe realizacje",
+      "Jak wygląda współpraca?"
+    ]
   },
   "footer": "© 2026 AVtouch. Wszystkie prawa zastrzeżone."
 }

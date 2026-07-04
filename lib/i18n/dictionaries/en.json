@@ -157,7 +157,13 @@
     "send": "Send",
     "error": "Sorry, something went wrong. Please try again in a moment or use the contact form.",
     "open": "Open chat with the assistant",
-    "close": "Close chat"
+    "close": "Close chat",
+    "suggestions": [
+      "Do you also handle electrical & cabling?",
+      "Do you offer IT and web development?",
+      "Show me example projects",
+      "How does the process work?"
+    ]
   },
   "footer": "© 2026 AVtouch. All rights reserved."
 }

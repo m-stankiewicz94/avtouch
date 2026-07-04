@@ -158,6 +158,32 @@
   }
 }
 
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.suggestion {
+  border: 1px solid var(--border-strong, rgba(255, 255, 255, 0.12));
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-dim, #aab4cf);
+  font-size: 13px;
+  line-height: 1.3;
+  padding: 8px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.suggestion:hover {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, rgba(108, 59, 255, 0.9), rgba(47, 168, 255, 0.9));
+}
+
 .inputRow {
   display: flex;
   gap: 8px;
