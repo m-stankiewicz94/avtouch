@@ -38,9 +38,6 @@ export default function Nav({
         <a href="#realizacje" data-anchor="realizacje" className={styles.link}>
           {dict.nav.work}
         </a>
-        <a href="#opinie" data-anchor="opinie" className={styles.link}>
-          {dict.nav.voices}
-        </a>
         <a href="#kontakt" data-anchor="kontakt" className={styles.link}>
           {dict.nav.contact}
         </a>

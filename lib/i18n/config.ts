@@ -15,7 +15,6 @@ export interface Dictionary {
   nav: {
     services: string;
     work: string;
-    voices: string;
     contact: string;
     cta: string;
     primary: string;
@@ -34,6 +33,7 @@ export interface Dictionary {
   about: { h: string; p1: string; p2: string };
   stats: { s1: string; s2Unit: string; s2: string; s3: string; s4: string };
   services: { h: string; sub: string; items: { t: string; d: string }[] };
+  more: { h: string; sub: string; items: { t: string; d: string }[] };
   process: {
     h: string;
     sub: string;
@@ -47,12 +47,6 @@ export interface Dictionary {
     ctaD: string;
     ctaB: string;
     projects: { meta: string; t: string; d: string; alt: string }[];
-  };
-  testimonials: {
-    heading: string;
-    quote: string;
-    quoteBy: string;
-    cards: { q: string; by: string }[];
   };
   contact: {
     h: string;

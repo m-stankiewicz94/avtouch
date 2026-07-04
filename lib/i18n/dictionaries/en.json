@@ -7,7 +7,6 @@
   "nav": {
     "services": "Services",
     "work": "Work",
-    "voices": "Clients",
     "contact": "Contact",
     "cta": "Get a quote",
     "primary": "Primary navigation",
@@ -54,6 +53,24 @@
       {
         "t": "Smart home, cinema & support",
         "d": "Private cinemas and multiroom, plus 24/7 service with SLA agreements."
+      }
+    ]
+  },
+  "more": {
+    "h": "More than AV",
+    "sub": "As a single contractor we also handle work that usually requires separate companies.",
+    "items": [
+      {
+        "t": "Electrical & infrastructure",
+        "d": "Electrical measurements, building installations and cabling — power and data (LAN) sockets, dedicated power supply, complete electrical infrastructure."
+      },
+      {
+        "t": "Photovoltaics",
+        "d": "Design, installation and electrical connection of photovoltaic systems — end to end, including commissioning."
+      },
+      {
+        "t": "Websites & AI chatbots",
+        "d": "We build websites and AI chatbots on request — modern digital solutions that support service and communication."
       }
     ]
   },
@@ -119,21 +136,6 @@
         "t": "Private residence",
         "d": "11.2.4 cinema, multiroom in 14 zones, whole-home automation",
         "alt": "AVtouch project — private home cinema and multiroom"
-      }
-    ]
-  },
-  "testimonials": {
-    "heading": "Client voices",
-    "quote": "“AVtouch designed and deployed AV in 40 rooms of our headquarters. Zero downtime in two years — the best recommendation I know.”",
-    "quoteBy": "— IT Director, banking sector",
-    "cards": [
-      {
-        "q": "“The ballroom sounds just as good at a conference as at a concert. Guests can hear it.”",
-        "by": "— COO, 5-star hotel"
-      },
-      {
-        "q": "“One button and the cinema starts. Exactly what we wanted — no remotes, no fiddling.”",
-        "by": "— private client, Konstancin"
       }
     ]
   },

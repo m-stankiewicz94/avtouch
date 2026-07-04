@@ -7,7 +7,6 @@
   "nav": {
     "services": "Usługi",
     "work": "Realizacje",
-    "voices": "Opinie",
     "contact": "Kontakt",
     "cta": "Wyceń projekt",
     "primary": "Nawigacja główna",
@@ -54,6 +53,24 @@
       {
         "t": "Smart home, kino i serwis",
         "d": "Prywatne kina i multiroom oraz opieka serwisowa 24/7 z umowami SLA."
+      }
+    ]
+  },
+  "more": {
+    "h": "Więcej niż AV",
+    "sub": "Jako jeden wykonawca realizujemy także prace, które zwykle wymagają osobnych firm.",
+    "items": [
+      {
+        "t": "Elektryka i infrastruktura",
+        "d": "Pomiary elektryczne, instalacje i okablowanie budynków — gniazda elektryczne i logiczne (LAN), dedykowane zasilanie, kompletna infrastruktura elektryczna."
+      },
+      {
+        "t": "Fotowoltaika",
+        "d": "Projekt, montaż i podłączenie elektryczne instalacji fotowoltaicznych — kompleksowo, wraz z uruchomieniem."
+      },
+      {
+        "t": "Strony internetowe i chatboty AI",
+        "d": "Tworzymy strony internetowe oraz chatboty AI na życzenie klienta — nowoczesne rozwiązania cyfrowe wspierające obsługę i komunikację."
       }
     ]
   },
@@ -119,21 +136,6 @@
         "t": "Rezydencja prywatna",
         "d": "Kino 11.2.4, multiroom w 14 strefach, automatyka całego domu",
         "alt": "Realizacja AVtouch — prywatne kino domowe i multiroom"
-      }
-    ]
-  },
-  "testimonials": {
-    "heading": "Opinie klientów",
-    "quote": "„AVtouch zaprojektował i wdrożył systemy AV w 40 salach naszej siedziby. Zero przestojów od dwóch lat — to najlepsza rekomendacja, jaką znam.”",
-    "quoteBy": "— Dyrektor IT, sektor bankowy",
-    "cards": [
-      {
-        "q": "„Sala balowa brzmi równie dobrze na konferencji, co na koncercie. Goście to słyszą.”",
-        "by": "— COO, hotel ★★★★★"
-      },
-      {
-        "q": "„Jeden przycisk i kino startuje. Dokładnie tego chcieliśmy — bez pilotów, bez kombinowania.”",
-        "by": "— klient prywatny, Konstancin"
       }
     ]
   },
