@@ -33,6 +33,6 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Run on everything except Next internals, static assets and files with an extension.
-  matcher: ["/((?!_next|assets|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)"],
+  // Run on everything except API routes, Next internals, static assets and files with an extension.
+  matcher: ["/((?!api|_next|assets|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)"],
 };

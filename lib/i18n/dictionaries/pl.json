@@ -150,5 +150,14 @@
     "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas mailem.",
     "invalid": "Uzupełnij poprawnie wszystkie pola."
   },
+  "chat": {
+    "title": "Asystent AV Touch",
+    "welcome": "Dzień dobry! W czym mogę pomóc? Chętnie odpowiem na pytania o nasze rozwiązania audiowizualne.",
+    "placeholder": "Napisz wiadomość…",
+    "send": "Wyślij",
+    "error": "Przepraszamy, coś poszło nie tak. Proszę spróbować ponownie za chwilę lub skorzystać z formularza kontaktowego.",
+    "open": "Otwórz czat z asystentem",
+    "close": "Zamknij czat"
+  },
   "footer": "© 2026 AVtouch. Wszystkie prawa zastrzeżone."
 }

@@ -6,6 +6,7 @@ import { locales, isLocale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { businessJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
+import ChatWidget from "@/components/ChatWidget";
 import "@/app/globals.css";
 
 const display = Space_Grotesk({
@@ -59,6 +60,7 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${display.variable} ${mono.variable}`}>
       <body>
         {children}
+        <ChatWidget dict={dict} />
         <script
           type="application/ld+json"
           // Structured data is trusted, server-built JSON — safe to inline.

@@ -150,5 +150,14 @@
     "error": "Something went wrong. Please try again or email us directly.",
     "invalid": "Please fill in all fields correctly."
   },
+  "chat": {
+    "title": "AV Touch Assistant",
+    "welcome": "Hello! How can I help? I'm happy to answer questions about our audiovisual solutions.",
+    "placeholder": "Type a message…",
+    "send": "Send",
+    "error": "Sorry, something went wrong. Please try again in a moment or use the contact form.",
+    "open": "Open chat with the assistant",
+    "close": "Close chat"
+  },
   "footer": "© 2026 AVtouch. All rights reserved."
 }

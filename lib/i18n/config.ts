@@ -67,5 +67,14 @@ export interface Dictionary {
     error: string;
     invalid: string;
   };
+  chat: {
+    title: string;
+    welcome: string;
+    placeholder: string;
+    send: string;
+    error: string;
+    open: string;
+    close: string;
+  };
   footer: string;
 }
